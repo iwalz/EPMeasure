@@ -1,0 +1,29 @@
+{
+    "name": "iwalz/EPMeasure",
+    "description": "Extended Performance Measurement",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "performance",
+        "execution time",
+	"PHP"
+    ],
+    "homepage": "https://github.com/iwalz/EPMeasure",
+    "authors": [
+        {
+            "name": "Ingo Walz",
+            "email": "ingo.walz@googlemail.com",
+            "homepage": "http://www.rubber-duckling.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "EPMeasure": "src/",
+            "EPMeasureTest": "tests/"
+        }
+    }
+}
